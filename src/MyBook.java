@@ -14,11 +14,10 @@ public class MyBook {
 
     @java.lang.Override
     public java.lang.String toString() {
-        return "MyBook{" +
-                "author='" + author.getAuthor() + '\'' +
-                ", title='" + title.getTitle() + '\'' +
-                ", description='" + description.getDesc() + '\'' +
-                ", numberOfPages=" + numberOfPages +
-                '}';
+        return "MyBook Details:\n" +
+                "Title = " + title.getTitle() + '\n' +
+                "Author = " + author.getAuthor() + '\n' +
+                "Description = " + description.getDesc() + '\n' +
+                "Number of pages = " + numberOfPages;
     }
 }
